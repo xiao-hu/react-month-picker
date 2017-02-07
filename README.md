@@ -1,6 +1,7 @@
 # React-Month-Picker
 
 Month-Picker Component offers a popup month selection panel with responsive layouts.
+(based on react-month-picker but is Bootstrap compatable)
 
 
 ## Changelogs
@@ -19,10 +20,7 @@ Month-Picker Component offers a popup month selection panel with responsive layo
 
 ## Installation
 
-	yarn add react-month-picker
-or
-
-	npm install react-month-picker --save
+	npm install rex-month-picker --save
 
 ## Snapshots
 
@@ -54,7 +52,7 @@ Demo file in repository: ./examples/demo.html
 #### Import component into your react project
 
 ```
-import Picker from 'react-month-picker'
+import Picker from 'rex-month-picker'
 ```
 
 ```
@@ -142,8 +140,10 @@ SCSS: 1) import bourbon library (http://bourbon.io/), 2) import scss/month-picke
 ## Developing
 
 ```sh
+gem install sass compass
+npm install -g grunt-cli
 npm install
-npm run _build
+grunt build
 ```
 
 ## License

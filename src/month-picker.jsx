@@ -297,10 +297,10 @@ class MonthPicker extends Component {
         return (
             <div className={["month-picker", this.props.className].join(' ')}>
                 {this.props.children}
-                <div className={["container", "table", this.props.className, (this.state.showed ? "show" : '')].join(' ')}>
+                <div className={["rmp-container", "table", this.props.className, (this.state.showed ? "rmp-show" : '')].join(' ')}>
                     <Tappable className="overlay" onTap={this._handleOverlayTouchTap} />
                     <div className="cell">
-                        <div className={["popup", popupClass , this.props.theme, (this.state.showed ? "show" : '')].join(' ')}>
+                        <div className={["popup", popupClass , this.props.theme, (this.state.showed ? "rmp-show" : '')].join(' ')}>
                             {pads}
                         </div>
                     </div>

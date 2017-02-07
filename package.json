@@ -1,8 +1,8 @@
 {
-  "name": "react-month-picker",
+  "name": "rex-month-picker",
   "description": "Month-Picker Component offers a popup month selection panel with responsive layouts.",
-  "url": "https://github.com/nickeljew/react-month-picker",
-  "homepage": "https://github.com/nickeljew/react-month-picker",
+  "url": "https://github.com/xiao-hu/rex-month-picker",
+  "homepage": "https://github.com/xiao-hu/rex-month-picker",
   "keywords": [
     "month-select",
     "month-option",
@@ -53,6 +53,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nickeljew/react-month-picker.git"
+    "url": "https://github.com/xiao-hu/rex-month-picker.git"
   }
 }
